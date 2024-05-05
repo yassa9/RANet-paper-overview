@@ -10,6 +10,8 @@ This project was developed as part of the CSE477s: Fundamentals of Deep Learning
 It is inspired by the challenges of traditional VOS methods, which while accurate, are computationally intensive and slow, making them unsuitable for real-time processing.
 
 ## Model Details
+![image](https://github.com/yassa9/RANet-paper-overview/assets/69548206/fa558e7c-b4f6-4e02-aedf-2c422aae7443)
+
 ### `Siamese Encoder`: Extracts detailed features from each video frame, ensuring the network recognizes important aspects of each frame, particularly relating to the object that needs to be segmented.
 ### `Correlation Layer`: Processes features from consecutive frames to maintain temporal consistency and capture object motion and transformation across frames.
 ### `Decoder`: Reconstructs the segmentation mask from the correlated features, outputting a high-resolution segmentation that accurately tracks the object across the video sequence.
